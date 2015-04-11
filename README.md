@@ -4,6 +4,8 @@ Have you ever noticed those [types](http://www.google.com/fonts/specimen/Rock+Sa
 
 With static types, there are simply no satisfactory replacements for a handwritten type. I find that completely upending, and to scratch that itch I've turned to D3 for a more 'proper' implementation of an actual 'handwritten' typeset - one that changes upon rendering. 
 
+![](https://raw.githubusercontent.com/maxArturo/d3_handwriting/master/d3_handwriting.gif)
+
 D3 takes care of generating SVG lines for the glyphs, whose coordinates are randomized runtime and interpolated using [basis interpolation](https://en.wikipedia.org/wiki/B-spline) to achieve that good ol' scrawl feel. It also (almost) guarantees that every rendering will be unique - just like every scribble is.
 
 
