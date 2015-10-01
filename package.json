@@ -1,0 +1,35 @@
+{
+  "name": "js_handwriting",
+  "version": "1.0.0",
+  "description": "Handwritten SVG glyps, using d3.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxArturo/d3_handwriting.git"
+  },
+  "keywords": [
+    "d3.js",
+    "handwriting"
+  ],
+  "author": "Max Alcala (@maxArturoAS)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxArturo/d3_handwriting/issues"
+  },
+  "homepage": "https://github.com/maxArturo/d3_handwriting#readme",
+  "devDependencies": {
+    "coffee": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "yargs": "^3.26.0"
+  }
+}
