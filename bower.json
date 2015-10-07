@@ -1,0 +1,29 @@
+{
+  "name": "js_handwriting",
+  "version": "1.0.0",
+  "homepage": "https://github.com/maxArturo/d3_handwriting",
+  "authors": [
+    "Max Alcala <maxarturo@gmail.com>"
+  ],
+  "description": "Handwritten svg, with d3.js",
+  "main": "js/handwritten.js",
+  "moduleType": [],
+  "keywords": [
+    "handwritten",
+    "d3"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.6",
+    "dat-gui": "dataarts/dat.gui#~0.5.1",
+    "lodash": "~3.10.1"
+  }
+}
