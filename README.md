@@ -14,7 +14,9 @@ It is worthwhile to note that this is completely preposterous to use as an actua
 I am looking for a proper glyph implementation - one that can be projected and transformed. My current process (painting a glyph with my mouse on the SVG element and saving the coordinates) is not close to optimal, but it works for now. If anyone knows of a better standard way (taking a standard Unicode implementation and parsing out to a SVG:line) do let me know. 
 
 ### Development
-After `git clone`, run `npm install` and `bower install` to add the dev dependencies. Then `gulp` will translate the CoffeeScript and watch for any changes.
+After `git clone`, run `npm install` and `bower install` to add the dev dependencies. Then `gulp` will translate the CoffeeScript and watch for any changes. 
+
+Without the `--production` option, a dev version of `handwritten.js` is built, which includes default `<div>`s for the glyphs to draw on, along with dat.GUI to play with variables. There is a handy `index.html` file under the dev folder where you can experiment with your changes - serve the entire repo folder with your [favorite server](https://gist.github.com/willurd/5720255) and browse to see your changes.
 
 ### Build release
 Run `gulp --production` to generate an uglified, minifed version ready for release.
