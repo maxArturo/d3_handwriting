@@ -1,4 +1,4 @@
-##D3 Handwriting type generator##
+## D3 Handwriting type generator
 
 Have you ever noticed those [types](http://www.google.com/fonts/specimen/Rock+Salt) that make you think like they are handwritten, only to find same-letter multiples together and have the illusion completely shattered?
 
